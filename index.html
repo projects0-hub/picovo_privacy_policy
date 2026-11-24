@@ -1,82 +1,79 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for the Picovo Android gallery app.">
-  <title>Picovo Privacy Policy</title>
-  <style>
-    :root {
-      color-scheme: light dark;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-    }
-    body {
-      margin: 0;
-      background: Canvas;
-      color: CanvasText;
-    }
-    main {
-      width: min(760px, calc(100% - 40px));
-      margin: 0 auto;
-      padding: 48px 0 72px;
-    }
-    h1 { margin-bottom: 0; line-height: 1.2; }
-    h2 { margin-top: 2rem; line-height: 1.3; }
-    .updated { color: GrayText; margin-top: .4rem; }
-    a { color: LinkText; }
-    footer {
-      margin-top: 3rem;
-      padding-top: 1.25rem;
-      border-top: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Picovo Privacy Policy</h1>
-    <p class="updated">Last updated: August 30, 2026</p>
-
-    <p>Picovo (<code>com.picovo.gallery</code>) is an offline-first Android gallery application. This policy explains what information Picovo accesses, what leaves the device, and the choices available to users.</p>
-
-    <h2>Photos, videos, and camera</h2>
-    <p>Picovo requests access to photos and videos because browsing, organizing, searching, editing, playing, deleting, restoring, and privately storing the device media library are the app's core functions. Media processing, thumbnails, search, albums, Trash, and Private Vault operate locally on the device. Picovo supports Android's limited-media access where available.</p>
-    <p>Camera permission is used only when the user chooses to capture media. Picovo does not automatically upload, synchronize, or back up photos, videos, media metadata, search queries, or Vault content to Picovo servers.</p>
-    <p>When a user deliberately shares media, Android passes the selected files to the app chosen by the user. That receiving app handles the data under its own privacy policy.</p>
-
-    <h2>Crash and stability diagnostics</h2>
-    <p>Picovo uses Firebase Crashlytics, a service provided by Google, to identify crashes and application-not-responding errors and improve reliability. Crashlytics automatically receives technical information such as stack traces, relevant application state, app version and package information, device manufacturer and model, operating-system information, network connection type, session information, and per-installation identifiers such as the Firebase installation ID and Crashlytics installation UUID.</p>
-    <p>This diagnostic information is used for app stability, troubleshooting, and crash management. Picovo does not include Firebase Analytics, advertising SDKs, or personalized advertising, and does not attach a user's name, email address, media, search queries, or a developer-defined user ID to Crashlytics reports.</p>
-    <p>Crashlytics data is transmitted using encryption in transit and is processed by Google as a service provider under the applicable Firebase terms and data-processing terms. More information is available from <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.</p>
-
-    <h2>Feedback and problem reports</h2>
-    <p>The Feedback and Report a Problem features prepare an email in the user's chosen email app. Nothing is sent until the user reviews the message and chooses to send it. Depending on the user's choices, the email may include:</p>
-    <ul>
-      <li>the user's email address as supplied by their email provider;</li>
-      <li>feedback or problem-description text entered by the user;</li>
-      <li>Picovo's package name, the device manufacturer/model, and Android version; and</li>
-      <li>screenshots or images deliberately attached by the user.</li>
-    </ul>
-    <p>These emails are used only to respond to support requests, investigate problems, and improve Picovo. They are not sold or used for advertising. The user's email provider also processes the message under its own privacy policy. Users may request deletion of support correspondence by emailing the contact below.</p>
-
-    <h2>Local storage, retention, and deletion</h2>
-    <p>Picovo stores preferences and app state locally. Private Vault media and credentials are excluded from Android cloud backup and device transfer. Users control their original media through Android and Picovo's media-management features. Clearing Picovo's app storage or uninstalling Picovo deletes its local app data, subject to media the user has chosen to keep in shared device storage.</p>
-    <p>Crash and diagnostic information is retained according to Firebase Crashlytics' applicable retention practices. Support emails are retained only as reasonably necessary to respond, investigate the reported issue, maintain support records, or meet legal obligations. Users may request deletion of their support correspondence using the contact below.</p>
-    <p>Users can revoke photo, video, or camera access at any time in Android Settings. Android may also offer access to only selected photos and videos.</p>
-
-    <h2>Data sharing</h2>
-    <p>Picovo does not sell personal data. Technical crash information is disclosed to Google only for Firebase Crashlytics to provide crash-reporting services. User-selected media or support messages leave Picovo only through an app or email provider deliberately selected by the user.</p>
-
-    <h2>Children</h2>
-    <p>Picovo is a general-audience utility and is not directed specifically to children. The app does not knowingly request a child's name, age, precise location, contacts, or account information.</p>
-
-    <h2>Changes to this policy</h2>
-    <p>This policy may be updated when Picovo's features or legal requirements change. The updated date above identifies the latest version. Material changes will be reflected both at this public policy page and in the app.</p>
-
-    <footer>
-      <h2>Contact</h2>
-      <p>For privacy questions or requests concerning support correspondence, email Picovo support at <a href="mailto:rjslabs.support@gmail.com">rjslabs.support@gmail.com</a>.</p>
-    </footer>
-  </main>
-</body>
-</html>
+Picovo
+Photo Gallery
+Developer website
+Contents
+1. About this policy
+2. Local media and permissions
+3. Vault and storage
+4. Information collected
+5. Firebase services
+6. ML Kit
+7. Advertising
+8. Regional privacy checks
+9. Use and sharing
+10. Privacy choices
+11. Retention and deletion
+12. Security
+13. Support
+14. Children
+15. Privacy rights
+16. Changes and contact
+Privacy Policy
+Picovo – Photo Gallery · Android package: com.picovo.gallery Last updated: November 24, 2026
+Picovo is a gallery app designed to help you browse, organize, edit and protect your photos and videos on your device. Local media processing is separate from the analytics, diagnostics, consent and advertising information that integrated services may transmit over the internet.
+1. About this policy
+This policy describes how Picovo (the “app”, “we” or “us”) handles information when you use its Android application. Picovo does not require you to create an account or sign in using an external account. Contact us at rjslabs.support@gmail.com with privacy questions.
+2. Local media and permissions
+With your permission, Picovo accesses photos and videos on your device to display galleries and albums, search, edit, play, organize, mark favorites and manage deleted media. These gallery operations are performed locally. Picovo does not upload your gallery photos, videos, file names, album names, file paths, search queries or extracted image text to our servers as part of these features.
+Depending on your Android version and the feature used, Picovo may request access to photos and videos, camera access, biometric authentication and notifications. Camera access is used for camera-related features you choose to use. Network access supports the online services described below. You can manage permissions through Android settings; some features may stop working if you deny their required permissions.
+If you deliberately share media or send an attachment through another application, the receiving application or recipient handles that information under its own practices.
+3. Private Vault, Trash and storage
+Private Vault media is encrypted on the device using Android Keystore-backed encryption. PIN or pattern verification information is stored in encrypted preferences. Biometric verification uses Android authentication mechanisms; Picovo does not receive or upload your biometric templates. Trash, favorites, edits and search indexes are managed locally. The app disables Android automatic app backup and includes exclusions for vault files and encrypted preferences. Keep your own safe backups of important media; uninstalling, clearing app storage or losing access to encryption keys may result in loss of vault data.
+4. Information collected by online services
+Depending on your device, region, consent choices and enabled services, Picovo and its integrated SDKs may transmit:
+	•	Approximate location inferred from IP address, such as country or region; Picovo does not request precise GPS location permissions.
+	•	Device or installation identifiers, including Android Advertising ID (when available), App Set ID, Firebase Installation ID, Analytics app-instance ID, and SDK-specific identifiers.
+	•	App interactions, session information, screen and feature usage, and advertising impressions, clicks and other ad interactions.
+	•	Crash reports, ANR reports, diagnostics, device and operating system information, network information and performance measurements.
+	•	App version, language or locale, consent-related information and configuration request information.
+These categories do not mean that your gallery media is uploaded. Certain identifiers and operational telemetry may be collected automatically even if you decline personalized advertising.
+5. Firebase services
+Picovo uses Google Firebase Analytics to understand app usage, feature interactions and sessions; Crashlytics and Firebase Sessions to diagnose crashes, ANRs and stability problems; and Remote Config and Firebase Installations to retrieve app configuration and manage installation-specific service operation.
+Analytics events use feature names, screen/source tags and grouped counts rather than file names, album names, paths or search text. Firebase services may process identifiers, approximate geography, device information, usage events and technical telemetry. Some Firebase components initialize at app startup. Analytics and crash reporting are distinct from personalized ad consent.
+Learn more: Firebase privacy and security · Google Privacy Policy.
+6. Google ML Kit
+Picovo uses Google ML Kit for on-device image labeling and text recognition to support media search. Image pixels, recognized text and resulting local indexes remain on your device for these features. ML Kit may transmit technical diagnostics, model download information, latency measurements, device information and installation identifiers for service operation and improvement.
+Learn more: ML Kit terms and privacy information.
+7. Advertising and mediation
+Picovo may display advertising through Unity LevelPlay, including ironSource Ads and Unity Ads. Advertising availability and placements may vary by app version, remote configuration, device and region. These services may collect and share advertising identifiers, App Set ID, IP-derived approximate location, device and network information, diagnostics, ad requests, impressions, clicks and other ad interactions for advertising delivery, measurement, analytics, security and fraud prevention. Android advertising and attribution services may also be used by these SDKs.
+Picovo uses Google User Messaging Platform (UMP) to request and present privacy or consent information where applicable. UMP is a consent service, not an indication that Picovo currently serves ads through the Google Mobile Ads SDK. Some SDK startup components may run before the consent interface appears; active LevelPlay initialization and ad loading are governed by the app's consent flow. Declining personalized ads does not necessarily stop all advertising, identifiers or operational data processing.
+Learn more: Unity Privacy Policy · ironSource Privacy Policy · Google Privacy Policy.
+8. Regional privacy checks
+To determine applicable regional privacy options, Picovo may use device region signals and HTTPS requests to IP-geolocation services operated by country.is, Cloudflare and IPinfo. These providers necessarily receive your public IP address and ordinary connection information when responding to a request. Picovo uses the resulting country or region information to select relevant privacy and consent handling, not to obtain precise GPS coordinates.
+Provider websites: country.is · Cloudflare Privacy Policy · IPinfo Privacy Policy.
+9. How information is used and shared
+Information described above is used to operate app and SDK features, retrieve configuration, measure usage, diagnose technical issues, deliver and measure advertising, prevent fraud, protect security and support applicable privacy requirements.
+Firebase and ML Kit process relevant telemetry in connection with their services. Advertising partners may receive approximate location, identifiers, app and ad interactions and diagnostic information for their advertising and operational purposes. Regional lookup providers receive connection information as described above. Information may also be disclosed when legally required or when necessary to protect rights or security. User-initiated sharing and external applications are handled separately.
+10. Your privacy choices
+	•	Manage media, camera and other app permissions in Android settings.
+	•	Where offered, manage advertising privacy options through Picovo's About screen and Ad privacy settings, including relevant regional consent or opt-out controls.
+	•	Use Android privacy settings to reset or delete your advertising ID where supported, and manage advertising personalization options.
+	•	Use the privacy rights channels provided by the relevant third-party services, including Unity's privacy resources.
+Available choices depend on your device, region and app version. Advertising choices may not disable analytics, crash reporting, consent checks or all other SDK data processing.
+11. Retention and deletion
+Local media and app settings remain on your device until removed through relevant app or Android controls. Clearing app data or uninstalling may remove app-private data and local identifiers, but does not necessarily erase media in shared storage or information already transmitted to third-party services.
+SDK information is retained according to the applicable provider policies, service configurations and operational or legal requirements. We do not promise that all SDK information is deleted within a specific period. Picovo has no user accounts or comprehensive request mechanism that can identify and delete all SDK telemetry by email; installation and advertising identifiers may not be linked to your email address.
+You may contact us to request deletion of support correspondence we hold, subject to applicable legal requirements. You may also contact relevant SDK providers to exercise available rights concerning information they process.
+12. Data security
+Picovo uses HTTPS/TLS for its direct online requests and the integrated services described above use encrypted transport. Private Vault uses on-device encryption. These safeguards reduce risk but no software, storage or transmission method can guarantee absolute security.
+13. Feedback and support
+If you contact us or use Picovo's feedback or problem-reporting feature, your chosen email application may send your email address, message and any attachments you choose to include. We use that correspondence to respond and investigate your request. Please avoid including sensitive personal information or private media unless necessary. Contact rjslabs.support@gmail.com for support or correspondence deletion requests.
+14. Children's privacy
+Picovo does not offer child accounts or require users to provide their age. If you are a parent or guardian and believe a child has provided personal information inappropriately, please contact us. Applicable age and consent requirements should be followed when using the app and its online services.
+15. Regional privacy rights
+Depending on your jurisdiction, you may have rights concerning access, correction, deletion, restriction, objection or consent withdrawal, and certain advertising-related uses of personal information. Contact us with a request and we will assess it under applicable law and our ability to identify the information. For information independently processed by third-party providers, their privacy policies explain available request channels. You may also have the right to contact your local data protection authority.
+16. Changes and contact
+We may update this policy as Picovo's features, SDKs and privacy practices change. The revised policy will be made available at this page with an updated date.
+For privacy questions or requests, contact the Picovo developer at rjslabs.support@gmail.com.
+Developer website: picovo-6e84f.web.app Google Play: Picovo – Photo Gallery
+Picovo – Photo Gallery · Privacy Policy
